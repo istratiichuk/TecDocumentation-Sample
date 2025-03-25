@@ -1,0 +1,46 @@
+#navbar {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 250px; 
+   height: 100vh; 
+   overflow-y: auto; 
+   background: #800020;
+   color: white;
+   border-right: 2px solid black;
+   padding: 20px;
+    box-sizing: border-box; 
+   line-height: 1.5;
+   font-family: arial;
+   font-size: 18px;
+ }
+ 
+ #main-doc {
+   margin-left: 250px; 
+   padding: 20px;
+   box-sizing: border-box; 
+ }
+ 
+ a {
+   color: white;
+ }
+ 
+ #navbar header {
+   font-size: 22px;
+   color: white;     
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px; 
+ }
+ 
+ @media (max-width: 768px) {
+   #navbar {
+     width: 200px;  /* Уменьшаем ширину на мобильных устройствах */
+     height: 100vh; /* Высота все равно на весь экран */
+   }
+ 
+   #main-doc {
+     margin-left: 220px;  /* Уменьшаем отступ, чтобы контент не перекрывался */
+   }
+ }
+ 
